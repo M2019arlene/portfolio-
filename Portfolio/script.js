@@ -1,0 +1,1 @@
+document.getElementById('cv-icon').href = "./archivo/Marlene Vasquez.pdf";

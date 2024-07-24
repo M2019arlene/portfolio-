@@ -95,7 +95,7 @@ ul li {
 
 .social-icon {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 .social-icon span{
@@ -137,4 +137,23 @@ ul li {
     border: none;
     margin: 0 5px;
     cursor: pointer;
+}
+
+.profile-img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+.tester {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.title {
+    font-size: 120%;
+}
+
+.skill {
+    font-size: 80%;
 }
